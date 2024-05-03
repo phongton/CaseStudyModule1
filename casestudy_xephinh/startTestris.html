@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="TetTris.css">
+</head>
+<body class="boTun">
+<button class="buTon" id="bt" onclick="startTesTris()">Bắt đầu</button>
+<script>
+  function startTesTris(){
+    window.location.href = "TetTris.html"
+  }
+  let btn = document.getElementById('bt');
+  btn.addEventListener("mouseover",function (){
+    btn.style.backgroundColor= "#ff4500";
+  })
+  btn.addEventListener("mouseout", function() {
+    btn.style.backgroundColor = "#007bff";})
+
+</script>
+
+</body>
+</html>
